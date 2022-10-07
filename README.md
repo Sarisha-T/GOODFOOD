@@ -1,46 +1,47 @@
-# GOODFOOD
+# FoodSoGood
 A food ordering web application.
 Installation and Setup of the project
 
-npm install
+#npm install
 this will install the dependencies that needed to run the api
 
-npm start
+#npm start
 Client side:
 Open [http://localhost:3000]
 
 Server side:
 
 Open a split terminal and 
-cd server
+#cd server
 this will change directory to api project
 
-nodemon server.js
+#nodemon server.js
 
 Front-end Installation and Set up
 
-cd client
+#cd client
 this will change directory to front-end project
 
-Available Scripts
+Available Scripts:
+
 In the project directory, you can run:
 
-npm install
-npm start
+#npm install
+#npm start
 Runs the app in the development mode.
 Open http://localhost:3000 to view it in your browser.
 
 
 Backend:
-npm run dev 
+#npm run dev 
 Runs the app in backend/ starts server
  http://localhost:5000 to view server
 
-npm test
+#npm test
 Launches the test runner in the interactive watch mode.
 See the section about running tests for more information.
 
-npm run build
+#npm run build
 Builds the app for production to the build folder.
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
@@ -49,7 +50,7 @@ Your app is ready to be deployed!
 
 See the section about deployment for more information.
 
-npm run eject
+#npm run eject
 Note: this is a one-way operation. Once you eject, you can't go back!
 
 If you aren't satisfied with the build tool and configuration choices, you can eject at any time. This command will remove the single build dependency from your project.
