@@ -1,0 +1,17 @@
+{
+  "name": "food-so-good",
+  "version": "1.0.0",
+  "description": "",
+ 
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cd server && nodemon server.js",
+    "start":"cd client && npm start"
+  },
+  "author": "Sarisha Thankachan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.20"
+  }
+}

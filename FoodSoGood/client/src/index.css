@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Passions+Conflict&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+:root{
+    --pri:rgba(19, 16, 16, 0.922);
+    --sec:rgb(255, 250, 250);
+    --btn:rgb(0, 128, 0);
+    --black:black;
+    --footer:rgb(110, 15, 15);
+}
+.navbar-brand{
+    font-family: 'Nabla', cursive;
+    
+    font-size: 2rem;
+
+}
+.flex-container{
+    display: flex;
+}
+img{
+    height:20px;
+    width:200px;
+}
+
+.add{
+    background-color: var(--btn);
+    color:var(--sec);
+    border:var(--sec);
+    border-radius: 4px;
+    font-size:small;
+    padding:5px 3px}
+
+
+.outline{
+    border:1px solid red;
+}
+
+
+.front{
+
+    color:var(--black)
+
+}
+
+.back{
+    background-color: var(--pri);
+
+}
+
+h1{
+    font-size: 20px;
+}
+input{
+    margin-top: 10px;
+}
+.fafa{
+    border-radius: 20px;
+    background-color: rgba(214, 72, 6, 0.374);
+}
+.icon{
+    color: white;
+}
+a:hover{
+    color: rgb(255, 98, 0);
+}

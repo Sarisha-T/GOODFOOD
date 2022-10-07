@@ -1,0 +1,53 @@
+[
+  {
+    "name": "Choco Desert",
+    "prices": [500],
+    "category": "nonveg",
+    "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2017/12/18/0/FNK_Giant-Chocolate-PB-Cookie-Cake-h1_s4x3.jpg.rend.hgtvcom.441.294.suffix/1513598524116.jpeg",
+    "description": "bk.jBSJKBQDJBASJCBJBCSBJ LSCKNCKS CLSKNC"
+  },
+  {
+    "name": "Choco blush",
+    "prices": [300],
+    "category": "nonveg",
+    "image": "https://3f4c2184e060ce99111b-f8c0985c8cb63a71df5cb7fd729edcab.ssl.cf2.rackcdn.com/media/15665/layeredchocolatemousse.jpg",
+    "description": "bk.jBSJKBQDJBASJCBJBCSBJ LSCKNCKS CLSKNC"
+  },
+  {
+    "name": "Chickpea curry",
+    "prices": [200],
+    "category": "nonveg",
+    "image": "https://veganinthefreezer.com/wp-content/uploads/2018/02/Vegetable-Curry-Square-br.jpg",
+    "description": "bk.jBSJKBQDJBASJCBJBCSBJ LSCKNCKS CLSKNC"
+  },
+  {
+    "name": "Veg mania",
+    "prices": [400],
+    "category": "veg",
+    "image": "https://hurrythefoodup.com/wp-content/uploads/2020/09/55-Vegetarian-Indian-Recipes.jpg",
+    "description": "bk.jBSJKBQDJBASJCBJBCSBJ LSCKNCKS CLSKNC"
+  },
+  {
+    "name": "Vannilla Panna Cota",
+    "prices": [520],
+    "category": "nonveg",
+    "image": "https://img.taste.com.au/xi2t8DpL/taste/2016/11/lemon-panna-cotta-with-vodka-blueberry-syrup-92005-1.jpeg",
+    "description": "bk.jBSJKBQDJBASJCBJBCSBJ LSCKNCKS CLSKNC"
+  },
+  {
+    "name": "Indian spiced Malai Kofta",
+    "prices": [520],
+    "category": "veg",
+    "image": "https://insanelygoodrecipes.com/wp-content/uploads/2021/06/Indian-Buttery-Spiced-Balls-or-Malai-Kofta-683x1024.jpg",
+    "description": "bk.jBSJKBQDJBASJCBJBCSBJ LSCKNCKS CLSKNC"
+  },
+  {
+    "name": "lemon panna cota",
+    "prices": [520],
+    "category": "nonveg",
+    "image": "https://img.taste.com.au/xi2t8DpL/taste/2016/11/lemon-panna-cotta-with-vodka-blueberry-syrup-92005-1.jpeg",
+    "description": "bk.jBSJKBQDJBASJCBJBCSBJ LSCKNCKS CLSKNC"
+  }
+  
+
+  ]
