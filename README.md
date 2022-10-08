@@ -4,11 +4,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Installation and setup
 
-### `cd client` and then ### `npm install` 
+### `cd client` and then `npm install` 
 this will change directory to client and install files needed for front end.
 
 In a split terminal type:
-### `cd server` and then ### `npm install` 
+### `cd server` and then `npm install` 
 this will change directory to client and install files needed for backend end.
 
 
@@ -25,8 +25,8 @@ In a new split terminal type:
 for backend
 
 
-ELSE do : ### `cd client` and then ### `npm start`  for front end
-### `cd server` and then ### `nodemon server.js` for backend
+ELSE do :  `cd client` and then  `npm start`  for front end
+### `cd server` and then `nodemon server.js` for backend
 
 
 ### `npm start`
