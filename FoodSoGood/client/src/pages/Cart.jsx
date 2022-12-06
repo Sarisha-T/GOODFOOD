@@ -4,9 +4,11 @@ import {deleteFromCart,addToCart} from '../actions/cartActions'
 import Payment from '../components/Payment'
 
 
+
+
 function Cart() {
-    const cartSate=useSelector(state=>state.cartReducer)
-    const cartItems=cartSate.cartItems
+    const cartState=useSelector(state=>state.cartReducer)
+    const cartItems=cartState.cartItems
     var totalamt=cartItems.reduce((x,item)=>x+item.price,0)
     const dispatch=useDispatch()
   return (
@@ -16,12 +18,12 @@ function Cart() {
                 <h2 style={{fontSize:"40px",}}>MY CART</h2>
                 {cartItems.map(item=>{
                     return <div className="flex-container shadow-lg p-3 mb-5 bg-body rounded text-center">
-                    <div className='w-100 text-center m-1 '>
-                        <h1>Name : {item.name}</h1>
-                        <h1>Price: {item.quantity} x {item.prices[0]}= Rs. {item.price}/-</h1>
-                        <span><b>Quantity : </b></span>
-                        <i class="fa-solid fa-minus" aria-hidden="true" onClick={()=>{dispatch(addToCart(item,item.quantity-1))}}></i>
-                        <b>{item.quantity}</b>
+                    <div className='w-100 m-1'>
+                        <h1 className="cartdata">Name : {item.name}</h1>
+                        <h1 className="cartdata">Price: {item.quantity} x {item.prices[0]}= Rs. {item.price}/-</h1>
+                        <span className="quantity"><b>Quantity: </b></span>
+                        <i className="fa-solid fa-minus" aria-hidden="true" onClick={()=>{dispatch(addToCart(item,item.quantity-1))}}></i>
+                        <b className="quantity"> {item.quantity} </b>
                         <i class="fa-solid fa-plus" aria-hidden="true" onClick={()=>{dispatch(addToCart(item,item.quantity+1))}}></i>
                    
                     </div>
