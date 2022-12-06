@@ -68,3 +68,24 @@ input{
 a:hover{
     color: rgb(255, 98, 0);
 }
+.fa-minus,.fa-plus,.fa-trash-can{
+    background-color:rgb(149, 20, 20);
+    color:white;
+   
+   border:1px solid black;
+   cursor:pointer;
+   font-size: 1.2rem;
+}
+.fa-trash-can{
+    margin:5px;
+    padding:5px;
+}
+.fa-plus{
+    background-color: rgb(24, 128, 24);
+}
+.quantity{
+    font-size: 1.2rem;
+}
+.cartdata{
+    font-size: 1.2rem;
+}
