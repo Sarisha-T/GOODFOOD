@@ -14,23 +14,33 @@ const foodsRouter=require("./routes/foodRoute");
 const userRouter=require("./routes/userRoute");
 const orderRouter=require("./routes/orderRoute");
 const food=require("./model/foodModel")
+const Order=require("./model/orderModel")
 
 app.use('/api/users/',userRouter)
 app.use('/api/foods/',foodsRouter)
 app.use('/api/orders/',orderRouter)
 
-// app.get("/getfooddu",(req,res)=>{
-//     food.find({},(err,data)=>{
-//         if(err){
-//             console.log(err)
-//         }else{
-//             res.send(data)
-//         }
-// })
-// })
+app.get("/getfooddu",(req,res)=>{
+    food.find({},(err,data)=>{
+        if(err){
+            console.log(err)
+        }else{
+            res.send(data)
+        }
+})
+})
+app.get("/getorders",(req,res)=>{
+    Order.find({},(err,data)=>{
+        if(err){
+            console.log(err)
+        }else{
+            res.send(data)
+        }
+})
+})
 
 app.get("/",(req,res)=>{
-    res.send("server working😂👍")
+    res.send("server working")
 })
 
 const port=process.env.PORT;
